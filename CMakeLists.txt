@@ -5,7 +5,7 @@ set(CMAKE_TOOLCHAIN_FILE cmake/arm-none-eabi-gcc.cmake CACHE FILEPATH "" FORCE)
 
 
 #================================================================================
-project(abox LANGUAGES C CXX ASM)
+project(template_project LANGUAGES C CXX ASM)
 
 include(FetchContent)  # Используем для работы с зависимостями в форме исходного кода
 
